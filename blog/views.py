@@ -10,7 +10,7 @@ def post_list(request):
     組み立てる「render関数」を呼び出して得た値を返す関数。
     """
     # クエリセットを変数"posts"に代入。
-    posts = Post.objects.filter(published_date__lte=timezone.now()).orderd_by("published_date")
+    posts = Post.objects.filter(published_date__lte=timezone.now()).order_by("published_date")
 
     return render(request, "blog/post_list.html", {"posts": posts})
 

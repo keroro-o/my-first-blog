@@ -1,3 +1,6 @@
+# このファイル（"models.py)で「Model」と呼ばれるオブジェクトを全て定義する。
+#   これが「ブログポスト」を定義する場所となる。
+
 from django.conf import settings
 from django.db import models
 from django.utils import timezone

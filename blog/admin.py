@@ -1,3 +1,5 @@
+# models.pyで作成したポストを追加、編集、削除するのに用いるファイル。
+
 from django.contrib import admin
 from .models import Post
 
